@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+/* shared style */
+.display-flex{
+  display: flex;
+}
+.text-dark{
+color: rgba(19, 19, 19, 1);
+}
+.text-grey{
+  color: rgba(66, 66, 66, 1);
+}
+.text-light-grey{
+  color: rgba(114, 114, 114, 1);
+}
+.bg-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+  background-color: rgba(255, 144, 14, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  border: none;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* header style */
+
+
+/* navbar related style */
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  display: flex;
+}
+
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.brand{
+font-size: 3rem;
+font-weight: bold;
+}
+
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner related style */
+
+.banner{
+
+}
+.banner-content{
+  max-width: 864px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+   font-size: 4rem;
+   font-weight: bold;
+
+}
+
+.banner-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color
+}
+
+.banner-image{
+  width: 100%;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+  .navbar, .nav-link{
+    flex-direction: column;
+  }
+}
